@@ -1,0 +1,65 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 70vh  ;
+  overflow: hidden
+}
+
+.swiper-slide {
+  padding: 3vw;
+  display: flex;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  flex-direction: column;
+  gap: 1vw;
+}
+.swiper-slide .one img {
+  height: 15vh;
+}
+.swiper-slide:nth-child(1n) {
+  background-color: white;
+  color:#000; 
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: white;
+  color:#000; 
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: white;
+  color:#000; 
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: white;
+  color:#000; 
+}
